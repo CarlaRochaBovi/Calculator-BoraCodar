@@ -1,0 +1,93 @@
+* {
+    padidng: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient(45deg, #251f43, #546bdb);   
+}
+
+#calculator {
+    background: #2D2A37;
+    padding: 54px 32px 32px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+     0px 188px 52px rgba(0, 0, 0, 0.01),
+      0px 120px 48px rgba(0, 0, 0, 0.04),
+       0px 68px 41px rgba(0, 0, 0, 0.15),
+        0px 30px 30px rgba(0, 0, 0, 0.26),
+        0px 8px 17px rgba(0, 0, 0, 0.29),
+        inset 0px 6px 8px rgba(255, 255, 255, 0.1),
+        inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+    border-radius: 48px;
+}
+
+.calculo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    padding-inline: 22px;
+    margin-bottom: 26px;
+
+}
+.calculo input {
+    text-align: right;
+    border: none;
+    background: #2D2A37;
+    color: #6B6B6B;
+}
+
+.calculo div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #EBEBEB;
+}
+
+.btn {
+    background: linear-gradient(180deg, #2D2A37 , rgba(214,214,214, 0.1));
+    color: #EBEBEB;
+}
+
+.buttons .ce {
+    color: #975DFA;
+}
+
+.btn {
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #2D2A37;
+    box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+    padding: 18px;
+    text-align: center;
+}
+
+.btn + .btn {
+    margin-left: 10px;
+}
+
+br + .btn {
+    margin-top: 10px;
+}
+
+.buttons .purple {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #462878;
+    box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.1);
+}
+
+.buttons  .equal {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
+box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.1);
+}
+
